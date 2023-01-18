@@ -1,0 +1,63 @@
+<!-- tag html memberikan maksud pada sebuah konten(p untuk paragraf, H1 untuk heading utama dll)
+Tag <div> dan <span> tidak memiliki arti apapun keduanya digunakan untuk mengelompokkan tag-tag HTML dan memberikan informasi terhadap Tag-Tag tersebut.
+	Dispaly memiliki display value:
+	#inline,inline-block,block,none
+	Elemen HTML inline:b,strong,i,em,a,span,sub,sup,buttoon,input,label,select,textarea
+	inline:
+	#elemen HTML yang secara default tidak menambahkan baris baru ketika dibuat
+	#lebar dan tinggi elemennya sebesar konten yang ada di dalamnya
+	#kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+	#margin dan padding hanya mempengaruhi elemen secara horizontal tidak vertical.
+	Block:
+	#elemen HTML yang secara default menambahkan baris baru ketika baru dibuat
+	#jika tidak diatur lebarnya maka lebar default dari elemen block akan memenuhi browser /parent-nya
+	#kita dapat mengatur tinggi dan lebar dari elemen block
+	#didalam elemen block kita dapat menyimpan tag dengan elemen inline ,inline-block ,bahkan block lagi
+	elemen HTML
+	Block:h1-h6,p,ol,ul,li,form,hr,div
+	None: digunakan untuk menghlangkan sebuah elemen
+	<div></div> defaultnya dispaly:block;
+	<span></span> defautlnya diplay:inline;
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Selamat Datang Di Website Kami</h1>
+    </div>
+
+    <div class="navigasi">
+      <h2>Daftar Link</h2>
+      <ul type="square">
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 5</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <span class="span1">ayub</span>
+      <span class="span2">ayub</span>
+      <h2>Judul Atikel</h2>
+      <h2>Judul Atikel</h2>
+      <img src="image/mobil.png" alt="" title="mobilku" />
+      <p>
+        <span>Lorem ipsum dolor</span>, sit amet consectetur, adipisicing elit. Harum sint voluptatibus repudiandae unde quas placeat, autem. Culpa, dicta corrupti provident sit illo enim, debitis exercitationem molestias doloribus quisquam
+        earum facilis.
+      </p>
+      <a class="a1" href="">aku</a>
+      <a href="">aku</a>
+      <a href="">aku</a>
+    </div>
+    <br /><br /><br />
+
+    <div class="copyright">Ayyub</div>
+  </body>
+</html>
